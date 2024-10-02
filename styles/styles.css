@@ -1,5 +1,10 @@
+:root {
+    --base-color-background: steelblue;
+    --base-image-width: 200px;
+}
+
 /*nav Style*/
-nav {background-color: steelblue;
+nav {background-color: var(--base-color-background);
 padding: 10px;}
 
 nav a {
@@ -17,7 +22,7 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--base-color-background);
     padding:  2px;
     box-shadow: 0 0 30px gray;
 }
@@ -33,7 +38,7 @@ main {
 }
 
 main img {
-    width: 200px;
+    width: var(--base-image-width);
     height: auto;
 }
 
@@ -49,7 +54,7 @@ aside {
     color: azure;
 }
 aside img {
-    width: 200px;
+    width: var(--base-image-width);
     height: auto;
 }
 
