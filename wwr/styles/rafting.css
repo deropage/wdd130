@@ -27,9 +27,11 @@ nav {
     background-color:var(--accent2-color2);
     padding: 1rem;
     opacity: .9;
+    text-decoration: none;
 }
 nav a {
     color:#111;
+    text-decoration: none;
 }
 
 .hero {
