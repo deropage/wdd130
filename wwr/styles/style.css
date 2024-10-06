@@ -1,0 +1,85 @@
+:root {
+    --heading-font: 'Bebas Neue';
+    --text-font: 'Lato';
+    --primary-color:#2C5F80;
+    --secondary-color:#F4F4F9;
+    --accent1-color1:#4B805D;
+    --accent2-color2:#F29C50;
+}
+
+/******************************************************Navigation Bar in Header**************************************/
+.navigation{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+}
+
+/*Logo at Navigation Bar*/
+.top{
+    display: flex;
+
+}
+
+.site_name{/*Style for header Name*/
+    color: var(--primary-color);
+    text-align: center;
+    margin: auto;
+    font-size: 80px;
+    font-family: var(--heading-font);
+}
+
+a .logo{ /*Logo in header properties to adjust*/
+    height: auto;
+    width: auto;
+    padding: 15px;
+}
+
+.top2{/*Navigation bar style which contains searching module and links*/
+    display: flex;
+    background-color: var(--primary-color);
+}
+
+/*Links for the Navigation Bar*/
+.links{ /*Style for links DIV*/
+    
+    padding: 20px;
+    align-items: center;
+}
+
+.links a { /*Style for links before pressing*/
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+    font-family: var(--text-font);
+}
+
+.links a:hover, a:active { /*Style for Links active or the pointer is over them*/
+    background-color: var(--secondary-color);
+    height: 100%;
+    color: var(--primary-color);
+}
+
+.hero{
+    margin: 10px auto;
+    position: relative;
+}
+
+.hero img{ 
+    object-fit: cover;
+
+
+}
+
+.hero h1 {
+    position: absolute;
+    font-family: var(--heading-font);
+    
+}
+
+.hero article {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+    font-family: var(--text-font);
+}
