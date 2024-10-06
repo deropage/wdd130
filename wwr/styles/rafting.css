@@ -15,16 +15,18 @@ h1, h2, h3 {
 p, a {
     font-family: var(--text-font);
 }
+
 /*Limitating the size of the page*/
 body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-
 }
 
 nav {
     background-color:var(--accent2-color2);
+    padding: 1rem;
+    opacity: .9;
 }
 nav a {
     color:#111;
