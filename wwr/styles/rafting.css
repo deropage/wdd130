@@ -1,0 +1,84 @@
+:root {
+    --heading-font: 'Bebas Neue';
+    --text-font: 'Lato';
+    --primary-color:#2C5F80;
+    --secondary-color:#F4F4F9;
+    --accent1-color1:#4B805D;
+    --accent2-color2:#F29C50;
+}
+/*Headings Format*/
+h1, h2, h3 {
+    font-family: var(--heading-font);
+}
+
+/*Text Format*/ 
+p, a {
+    font-family: var(--text-font);
+}
+/*Limitating the size of the page*/
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+nav {
+    background-color:var(--accent2-color2);
+}
+nav a {
+    color:#111;
+}
+
+.hero {
+    position: relative;
+    margin: 10px auto;
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    background-color: var(--primary-color);
+    text-align: center;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .9;
+    bottom: 400px;
+    width:400px;
+    margin: auto;
+}
+
+.hero article {
+    position: absolute;
+    background-color: var(--accent1-color1);
+    padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: 0.9;
+    bottom: 200px;  
+}
+
+.hero article img{
+    position: relative;
+    float: right;
+    width: 150px;
+}
+
+/*Sections formatting*/
+section h2 {
+    color: #2C5F80;
+}
+
+section h3 {
+    color: #F29C50;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.1px;
+}
+section img {
+    width: 200px;
+}
