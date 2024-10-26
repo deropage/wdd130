@@ -15,7 +15,11 @@ h1, h2, h3, figcaption{
 p, a , label, text{
     font-family: var(--text-font);
 }
+/*General picture formating*/
 
+img {
+  border-radius: 20px;
+}
 /*Header format*/
 
 header {
@@ -60,6 +64,7 @@ nav a {
 .hero {
     position: relative;
     margin: 10px auto;
+    align-items: center;
 }
 
 .hero img {
@@ -71,13 +76,16 @@ nav a {
 
 .hero h1 {
   position: absolute;
+  color: var(--accent2-color2);
+  text-shadow: 20px 10px 7px black;
   background-color: var(--primary-color);
   text-align: center;
+  font-size: 50px;
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #111;
 	opacity: .9;
   bottom: 400px;
-  width:400px;
+  width:100%;
   margin: auto;
 }
 
@@ -205,7 +213,7 @@ footer p{
 
 .contact-us .pictures{
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
 }
 .contact-us  .large{
   align-self: center;
@@ -279,6 +287,126 @@ footer p{
   color: #dadada;
 }
   
+/*Index Site*/
 
+h3{
+  text-align: center;
+  color: #2C5F80;
+  background-color: var(--accent2-color2);
+  -webkit-text-stroke-color: var(--accent1-color1);
+  -webkit-text-stroke-width: 0.00002px;
+  font-size:xx-large;
+
+}
+
+.welcome {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.welcome img {
+  width: 100%;
+}
+.welcome h3{
+  grid-column: 1/span 2;
+}
+
+/*Newsletter*/
+.newsletter img{
+  width: 100%;
+}
+.newsletter h2{
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+}
+.newsletter p{
+  text-align: center;
+}
+
+.newsletter input{
+  width: 100%;
+  padding: 5px;
+}
+.newsletter button{
+  margin-top:10px ;
+  width: 98%;
+  background-color: var(--accent2-color2);
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border-radius: 40px;
+}
+/*Certified section*/
+.certified {
+  padding: 30px;
+  grid-column: 2/span 4;
+  text-align: right;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.certified h3{
+  grid-column: 1/span 3;
+  width: 100%;
+}
+.certified p {
+  grid-column: 1/span 2;
+  text-align: justify;
+}
+.certified img{
+  width: 100%;
+  grid-column: 3/span 3;
+  padding: 5px;
+  align-self: center;
+}
+
+
+.full-section{
+  display: grid;
+  grid-template-columns: 4;
+}
+
+/*Join Section*/
+
+.join {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.join h2{
+  text-shadow: 5px 5px 5px black;
+  font-size: 50px;
+  text-align: center;
+  grid-column: 1/span 2;
+}
+
+.join .pic-1{
+  display:grid;
+  grid-column: 1/span 1;
+
+
+}
+.join .pic-2{
+  display:grid;
+  grid-column: 2/span 2;
+  padding: 25px;
+}
+
+.join .trip-button{
+  margin-top:10px ;
+  width: 98%;
+  background-color: var(--accent2-color2);
+  text-shadow: 2px 2px 5px black;
+  font-size: 30px;
+  font-family: var(--text-font);
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border-radius: 40px;
+}
+
+.join .invitation{
+  grid-column: 1/span 2;
+}
   
  
