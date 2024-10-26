@@ -444,7 +444,7 @@ h3{
 
 }
 
-.option .contact-button{
+.contact-button{
   margin-top:10px ;
   width: 98%;
   background-color:var(--accent2-color2);
@@ -456,4 +456,26 @@ h3{
   font-weight: 700;
   color: white;
   border-radius: 40px;
+}
+
+.trips-data table{
+  font-family: var(--text-font);
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+.trips-data td{
+  border-left: 2px solid var(--primary-color);
+  border-right: 2px solid var(--primary-color);
+  padding: 5px;
+  text-align: center;
+}
+.trips-data th{
+  border-top: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  border-left: 2px solid var(--primary-color);
+  border-right: 2px solid var(--primary-color);
+}
+.trips-data tr:last-child{
+  border-bottom: 2px solid var(--primary-color);
 }
